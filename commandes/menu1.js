@@ -32,7 +32,7 @@ zokou({ nomCom: "menu1", categorie: "Menu" }, async (dest, zk, commandeOptions) 
     let infoMsg = `
 ╭━═「 *${s.BOT}* 」═━❂
 ┃⊛╭────••••────➻
-┃⊛│◆ 𝙾𝚠𝚗𝚎𝚛 : ${s.OWNER_NAME}
+┃⊛│◆ 𝙾𝚠𝚗𝚎𝚛 : ${s.DOLLAR_BOT}
 ┃⊛│◆ 𝙿𝚛𝚎𝚏𝚒𝚡 : [ ${s.PREFIXE} ]
 ┃⊛│◆ 𝙼𝚘𝚍𝚎 : *${mode}*
 ┃⊛│◆ 𝚁𝚊𝚖  : 𝟴/𝟭𝟯𝟮 𝗚𝗕
@@ -40,12 +40,12 @@ zokou({ nomCom: "menu1", categorie: "Menu" }, async (dest, zk, commandeOptions) 
 ┃⊛│◆ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
 ┃⊛│◆ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : ғDAUDY
 ┃⊛│◆ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
-┃⊛│◆ 𝚃𝚑𝚎𝚖𝚎 : DML MD
+┃⊛│◆ 𝚃𝚑𝚎𝚖𝚎 : DOLLAR MD
 ┃⊛└────••••────➻
 ╰─━━━━══──══━━━❂\n${readmore}
 `;
 
-    let menuMsg = `DML MD`;
+    let menuMsg = `DOLLAR MD`;
     
     for (const cat in coms) {
         menuMsg += `
@@ -62,7 +62,7 @@ zokou({ nomCom: "menu1", categorie: "Menu" }, async (dest, zk, commandeOptions) 
     }
     
     menuMsg += `
-> Made By ғDML MD\n`;
+> Made By ғDOLLAR MD\n`;
 
     try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
@@ -71,10 +71,10 @@ zokou({ nomCom: "menu1", categorie: "Menu" }, async (dest, zk, commandeOptions) 
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "DML-MD MENU LIST",
+                    title: "DOLLAR-MD MENU LIST",
                     body: "Dont worry bro I have more tap to follow",
                     thumbnailUrl: "https://files.catbox.moe/vcdwmp.jpg",
-                    sourceUrl: "https://whatsapp.com/channel/0029Vb2hoPpDZ4Lb3mSkVI3C",
+                    sourceUrl: "https://whatsapp.com/channel/0029VbAZuFFCBtxLljSGkS05",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
