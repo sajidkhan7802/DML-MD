@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
-DML MD
+DOLLAR MD
 
 *BUGMENU*
 bug
@@ -65,7 +65,7 @@ let menuMsg = `
   
 
 
-> ©DML MD
+> ©DOLLAR MD
 `;
 
    var lien = mybotpic();
