@@ -28,10 +28,10 @@ D ☞ tiger 🐯 video logo
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "DML DML",
+        title: "DOLLAR MD",
         body: "Pongezi Kwa, DMLTech",
         thumbnailUrl: "https://files.catbox.moe/dc8lcl.jpg",
-        sourceUrl: "https://whatsapp.com/channel/0029Vb2hoPpDZ4Lb3mSkVI3C",
+        sourceUrl: "https://whatsapp.com/channel/0029VbAZuFFCBtxLljSGkS05",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
