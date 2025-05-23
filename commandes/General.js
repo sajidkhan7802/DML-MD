@@ -55,13 +55,13 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Daudy", numero: "255785591288" },
-      { nom: "᚛Dml᚜", numero: "255622220680" },
-      { nom: "DML TECH", numero: "255785591288" },
+      { nom: "Daudy", numero: "923404469538" },
+      { nom: "᚛Dml᚜", numero: "923404469538" },
+      { nom: "DML TECH", numero: "923404469538" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "WELCOME TO DML MD HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
+    let message = "WELCOME TO DOLLAR MD HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
