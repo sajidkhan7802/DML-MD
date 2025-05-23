@@ -35,7 +35,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
     const alivemsg = `
-*Owner* : ${s.OWNER_NAME}
+*Owner* : ${s.DOLLAR_MD}
 *Mode* : ${mode}
 *Date* : ${date}
 *Hours(GMT)* : ${temps}
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Holla🥴, *DML BOT* is alive just like you gee. ')
+repondre(' Holla🥴, *DOLLAR BOT* is alive just like you gee. ')
 
 }
     });
